@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark">
+  <title>GSG</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header-links" data-bs-offset="100" tabindex="0">
+  <header id="mainHeader">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="assets/images/light-logo.png" alt="GSG Logo">
+          GSG
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-links">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="header-links">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#admission">Admission</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faculty">Faculty</a></li>
+            <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+            <li class="nav-item"><a class="nav-link" href="#subjects">Subjects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- ===== Hero Section (Carousel) ===== -->
+  <section id="home" class="py-0">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active position-relative">
+          <img src="assets/images/carousal-image1.jpg" class="d-block w-100" alt="Students" style="height: 85vh; object-fit: cover; object-position: center;">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center text-white">
+            <div class="bg-maroon-overlay rounded p-3 p-md-4" style="max-width: 700px;">
+              <h2 class="fw-bold fs-3 fs-md-2">Welcome to Government School for Girls</h2>
+              <p class="lead mb-3">Empowering the next generation with education and excellence.</p>
+              <a href="#admission" class="btn btn-light fw-semibold mt-2 px-4 text-maroon">Apply Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item position-relative">
+          <img src="assets/images/carousal-image2.jpg" class="d-block w-100" alt="Quality Education" style="height: 85vh; object-fit: cover; object-position: center;">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center text-white">
+            <div class="bg-maroon-overlay rounded p-3 p-md-4" style="max-width: 700px;">
+              <h2 class="fw-bold fs-3 fs-md-2">Quality Education</h2>
+              <p class="lead mb-3">Nurturing confidence, discipline, and lifelong learning for every girl.</p>
+              <a href="#faculty" class="btn btn-light fw-semibold mt-2 px-4 text-maroon">Meet Our Teachers</a>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item position-relative">
+          <img src="assets/images/carousal-image3.jpg" class="d-block w-100" alt="Bright Future" style="height: 85vh; object-fit: cover; object-position: center;">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center text-white">
+            <div class="bg-maroon-overlay rounded p-3 p-md-4" style="max-width: 700px;">
+              <h2 class="fw-bold fs-3 fs-md-2">Bright Future Begins Here</h2>
+              <p class="lead mb-3">Join a community that inspires growth, creativity, and confidence.</p>
+              <a href="#contact" class="btn btn-light fw-semibold mt-2 px-4 text-maroon">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" style="color: #ffffff;"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="color: #ffffff;"></span>
+      </button>
+      <!-- Indicators -->
+      <div class="carousel-indicators mb-4">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active bg-maroon"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" class="bg-maroon"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" class="bg-maroon"></button>
+      </div>
+    </div>
+  </section>
+  <!-- Admission Section -->
+  <section id="admission" class="py-5" style="background-color: #f8fafd;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center align-items-center">
+          <img src="assets/images/dark-logo.png" alt="GSG School" class="img-fluid rounded-3 border-0" style="max-width: 250px;">
+        </div>
+        <!-- Text and Button -->
+        <div class="col-lg-6">
+          <h2 class="text-maroon fw-bold">Join Government School for Girls</h2>
+          <p class="lead">Empowering the next generation with education, confidence, and excellence. Apply now to be a part of our vibrant community.</p>
+          <button class="btn btn-maroon px-4 fw-semibold" data-bs-toggle="modal" data-bs-target="#admissionModal">Apply Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal with Admission Form -->
+  <div class="modal fade" id="admissionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-maroon text-white">
+          <h5 class="modal-title">Student Admission Form</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-4">Please fill out the form below. All fields are required.</p>
+          <form id="admissionForm">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control border-maroon focus-maroon rounded-3" placeholder="Enter the Name" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Father Name</label>
+                <input type="text" class="form-control border-maroon focus-maroon rounded-3" placeholder="Enter Father Name" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Date of Birth</label>
+                <input type="date" class="form-control border-maroon focus-maroon rounded-3" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Contact Number</label>
+                <input type="tel" class="form-control border-maroon focus-maroon rounded-3" placeholder="03XX-XXXXXXX" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control border-maroon focus-maroon rounded-3" placeholder="email@gmail.com" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Grade Level Applying For</label>
+                <select class="form-select border-maroon focus-maroon rounded-3 select-maroon" required>
+                  <option value="6" selected>Grade 6</option>
+                  <option value="7">Grade 7</option>
+                  <option value="8">Grade 8</option>
+                  <option value="9">Grade 9</option>
+                  <option value="10">Grade 10</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Address</label>
+                <textarea class="form-control border-maroon focus-maroon rounded-3" rows="3" placeholder="Enter address" required></textarea>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-maroon px-5 fw-semibold">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap Modal -->
+  <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <div class="modal-header" style="background-color: var(--primary-color); color: #fff;">
+          <h5 class="modal-title">Application Received</h5>
+          <button type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Thank you for applying! Please prepare for your admission test.<br>
+          You will receive further information via email.</p>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button class="btn btn-primary bg-maroon" data-bs-dismiss="modal">Okay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="faculty" class="py-5" style="background-color: var(--light-color);">
+  <div class="container">
+    <h2 class="text-maroon fw-bold mb-3 text-center">Our Dedicated Faculty</h2>
+    <p class="text-muted mb-5">Meet our passionate teachers who inspire, guide, and nurture every student at Government School for Girls.</p>
+      <div class="row g-4">
+        <!-- Teacher Card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-maroon h-100 shadow-sm">
+            <img src="assets/images/math-teacher.png" class="card-img-top" alt="Ms. Ayesha Khan" style="height: 260px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-bold">Ms. Ayesha Khan</h5>
+              <p class="card-subtitle mb-2 text-muted fst-italic">Mathematics</p>
+              <p class="card-text">Ms. Ayesha encourages curiosity and interactive learning, helping students excel in analytical thinking and problem-solving.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-maroon h-100 shadow-sm">
+            <img src="assets/images/english-teacher.png" class="card-img-top" alt="Mrs. Sana Ali" style="height: 260px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-bold">Mrs. Sana Ali</h5>
+              <p class="card-subtitle mb-2 text-muted fst-italic">English</p>
+              <p class="card-text">Mrs. Sana inspires students to communicate effectively, fostering confidence and a love for literature in every class.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-maroon h-100 shadow-sm">
+            <img src="assets/images/science-teacher.png" class="card-img-top" alt="Ms. Fatima Riaz" style="height: 260px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-bold">Ms. Fatima Riaz</h5>
+              <p class="card-subtitle mb-2 text-muted fst-italic">Science</p>
+              <p class="card-text">Ms. Fatima makes science hands-on and engaging, encouraging students to explore, experiment, and think critically.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Vision Section -->
+  <section id="vision" class="py-5">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h2 class="text-maroon fw-bold">Our Vision</h2>
+      </div>
+      <div class="card border-maroon shadow-lg mx-auto" style="max-width: 900px; background-color: var(--light-color)">
+        <div class="card-body p-5">
+          <p class="lead mb-0">
+            At Government School for Girls, our vision is to provide quality education to every child, ensuring that learning reaches every home and community.  
+             We aim to empower our students with knowledge, skills, and values that help them grow academically and personally, fostering responsible, confident, and capable future citizens.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Subjects Section -->
+  <section id="subjects" class="py-5" style="background-color: var(--light-color);">
+    <div class="container">
+      <h2 class="text-maroon fw-bold mb-4 text-center">Subjects Offered</h2>
+      <p class="mb-5">Our school provides a comprehensive curriculum designed to nurture knowledge, creativity, and critical thinking in every student.</p>
+
+      <div class="row g-4">
+        <!-- Subject Card Example -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-maroon shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-semibold">Mathematics</h5>
+               <hr style="color:var(--primary-color);">
+              <p class="card-text">Develop problem-solving skills, analytical thinking, and a strong foundation in numbers and logic.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-maroon shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-semibold">Science</h5>
+                <hr style="color:var(--primary-color);">
+              <p class="card-text">Explore the world of physics, chemistry, and biology with hands-on experiments and inquiry-based learning.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-maroon shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-semibold">English</h5>
+               <hr style="color:var(--primary-color);">
+              <p class="card-text">Enhance reading, writing, and communication skills while fostering creativity and critical thinking.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-maroon shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-semibold">Social Studies</h5>
+               <hr style="color:var(--primary-color);">
+              <p class="card-text">Learn about history, geography, and civic responsibilities to become informed and responsible citizens.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-maroon shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-semibold">Computer Science</h5>
+               <hr style="color:var(--primary-color);">
+              <p class="card-text">Introduction to coding, digital literacy, and technology skills essential for the modern world.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-maroon shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title text-maroon fw-semibold">Arts & Crafts</h5>
+               <hr style="color:var(--primary-color);">
+              <p class="card-text">Encouraging creativity and self-expression through drawing, painting, and various craft activities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-5" style="color: var(--light-color);">
+    <div class="container">
+      <h2 class="text-maroon fw-bold mb-5 text-center">Contact Us</h2>
+      <p class="mb-5 text-center text-muted">
+        Reach out for any queries, feedback, or enrollment information.
+      </p>
+      <div class="row g-4 align-items-stretch">
+        <!-- Contact Info -->
+        <div class="col-lg-5">
+          <div class="h-100 d-flex flex-column justify-content-between">
+            <div class="card text-dark border-maroon h-100 shadow-sm mb-4">
+              <div class="card-body text-center" style="background-color: var(--light-color);">
+                <i class="bi bi-envelope-fill fs-3 text-maroon mb-2"></i>
+                <h5 class="card-title fw-semibold">Email</h5>
+                <p class="card-text">info@gsg.edu.pk</p>
+              </div>
+            </div>
+            <div class="card bg-light text-dark border-maroon h-100 shadow-sm mb-4">
+              <div class="card-body text-center" style="background-color: var(--light-color);">
+                <i class="bi bi-telephone-fill fs-3 text-maroon mb-2"></i>
+                <h5 class="card-title fw-semibold">Phone</h5>
+                <p class="card-text">+92 300 8994567</p>
+              </div>
+            </div>
+            <div class="card bg-light text-dark border-maroon h-100 shadow-sm">
+              <div class="card-body text-center" style="background-color: var(--light-color);">
+                <i class="bi bi-geo-alt-fill fs-3 text-maroon mb-2"></i>
+                <h5 class="card-title fw-semibold">Address</h5>
+                <p class="card-text">Garjakh Street No # 2, Gujranwala, Pakistan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="card text-dark border-maroon h-100 shadow-sm p-4" style="background-color: var(--light-color);">
+            <h5 class="fw-bold text-maroon mb-4 text-center">Send Us a Message</h5>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control border-maroon focus-maroon rounded-3" placeholder="First Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control border-maroon focus-maroon rounded-3" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="mb-3 mt-3">
+                <input type="email" class="form-control border-maroon focus-maroon rounded-3" placeholder="Email Address" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control border-maroon focus-maroon rounded-3" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+              <div class="text-center">
+                <!-- Button triggers toast -->
+                <button type="submit" class="btn btn-maroon px-4 fw-semibold">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="position-fixed top-15 end-0 p-4" style="z-index: 1080;">
+      <div id="contactToast" class="toast align-items-center text-dark border-0" style="color: #f8d6c3;" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Thank you for contacting us! We will get back to you soon.
+          </div>
+          <button type="button" class="btn-close btn-close-black me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-maroon text-white pt-5">
+    <div class="container">
+      <div class="row">
+     <!-- About / Logo -->
+        <div class="col-md-3 mb-4 text-center text-md-start">
+          <div class="col-md-4 mb-4 d-flex align-items-center">
+            <a href="#home" class="me-2">
+              <img src="assets/images/light-logo.png" alt="GSG Logo" class="img-fluid" style="max-width: 50px;">
+            </a>
+            <h5 class="fw-bold text-light mb-0">Government School for Girls</h5>
+          </div>
+          <p class="small text-light">
+            Providing quality education for girls, empowering every student to grow academically and personally.
+          </p>
+        </div>
+        <!-- Portals -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold text-light">Portals</h5>
+          <ul class="list-unstyled">
+            <li><a href="#faculty" class="text-white text-decoration-none footer-link">Faculty</a></li>
+            <li><a href="#" class="text-white text-decoration-none footer-link">Faculty Portal (On Campus)</a></li>
+            <li><a href="#" class="text-white text-decoration-none footer-link">Student Portal (Online)</a></li>
+            <li><a href="#" class="text-white text-decoration-none footer-link">Student Portal (On Campus)</a></li>
+          </ul>
+        </div>
+        <!-- Media & News -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold text-light">Media & News</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none footer-link">Admission</a></li>
+            <li><a href="#" class="text-white text-decoration-none footer-link">Events & Announcements</a></li>
+            <li><a href="#" class="text-white text-decoration-none footer-link">Photo Gallery</a></li>
+            <li><a href="#subjects" class="text-white text-decoration-none footer-link">Subjects</a></li>
+          </ul>
+        </div>
+        <!-- Contact Info -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold text-light">Contact</h5>
+          <ul class="list-unstyled small">
+            <li><i class="bi bi-geo-alt-fill me-2"></i>School Street # 2, Gujranwala, Pakistan</li>
+            <li><i class="bi bi-telephone-fill me-2"></i>+92 300 8994567</li>
+            <li><i class="bi bi-envelope-fill me-2"></i>info@gsg.edu.pk</li>
+          </ul>
+          <div class="d-flex gap-2 mt-2">
+            <a href="#" class="text-white fs-5 footer-link"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white fs-5 footer-link"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white fs-5 footer-link"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-5 footer-link"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-light">
+      <div class="text-center py-3">
+        <small> Government School for Girls 2025 &copy; Gujranwala - All Rights Reserved.</small>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
