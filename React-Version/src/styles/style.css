@@ -277,10 +277,20 @@ html, body {
   margin-top: 2rem;
   overflow-x: auto;
 }
-.table-img{
- height: 35;
- width: 35;
+/* Table Images — teacher */
+.table-img {
+  width: 50px;            /* fixed size */
+  height: 50px;           /* fixed size */
+  object-fit: cover;      /* ensures image fills the box nicely */
+  border-radius: 50%;     /* makes it circular */
+  border: 2px solid var(--primary-color); 
+  transition: transform 0.3s ease; 
 }
+
+.table-img:hover {
+  transform: scale(1.1);  /* subtle zoom on hover */
+}
+
 /* Faculty Section Full Width Background */
 #faculty-section {
   background-color: var(--secondary-color);
