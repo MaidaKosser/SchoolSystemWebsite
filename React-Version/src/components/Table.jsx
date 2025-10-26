@@ -226,8 +226,8 @@ export default function Table({ type, data, setData }) {
                         <Button
                           label="Edit"
                           onClick={() => handleEdit(item)}
-                          bg="var(--secondary-color)"
-                          hoverBg="var(--primary-color)"
+                          bg="var(--primary-color)"
+                          hoverBg="green"
                         />
                         <Button
                           label="Delete"

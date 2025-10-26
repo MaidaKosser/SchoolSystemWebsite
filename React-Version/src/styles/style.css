@@ -272,26 +272,25 @@ html, body {
   border-radius: 12px !important;
   border: 1px solid rgba(128, 0, 0, 0.3);
 }
-
 .scrollable-table-wrapper {
   margin-top: 2rem;
   overflow-x: auto;
 }
 /* Table Images — teacher */
 .table-img {
-  width: 50px;            /* fixed size */
-  height: 50px;           /* fixed size */
-  object-fit: cover;      /* ensures image fills the box nicely */
-  border-radius: 50%;     /* makes it circular */
+  width: 50px;           
+  height: 50px;           
+  object-fit: cover;      
+  border-radius: 50%;    
   border: 2px solid var(--primary-color); 
   transition: transform 0.3s ease; 
 }
 
 .table-img:hover {
-  transform: scale(1.1);  /* subtle zoom on hover */
+  transform: scale(1.1);  
 }
 
-/* Faculty Section Full Width Background */
+/* Faculty Section */
 #faculty-section {
   background-color: var(--secondary-color);
   width: 100%;
